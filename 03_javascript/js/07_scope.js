@@ -1,6 +1,6 @@
 // 전역 
 let a = 10;
-console.log(a);
+console.log(a); // 3
 
 function foo() {
   // 지역
@@ -14,12 +14,12 @@ function foo() {
 if(true) {
   // 지역
   let c = 99;
-  console.log(c);
+  console.log(c); // 99
 }
 
 for(let i = 0; i < 5; i++) {
   // 지역
-  console.log(i);
+  console.log(i); 
 }
 
 // console.log(i); // Uncaught ReferenceError: i is not defined
