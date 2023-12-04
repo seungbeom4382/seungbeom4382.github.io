@@ -13,8 +13,7 @@ img:hover{
 }
 .card {
     display: inline-block;
-    width: 780px;
-    height: 380px;
+    height: 200px;
     margin: 10px;
     padding: 30px;
     color: #fff;
@@ -24,11 +23,25 @@ img:hover{
     transition-duration: .3s;
     opacity: 0.9;
   }
+
+#clock-display{
+    /* height: 780px;
+    width: 350px; */
+    display: inline-block;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    cursor: pointer;
+    overflow:hidden;
+    transition-duration: .3s;
+    opacity: 0.9;
+}
+
 .card h2 {
-    transform: translate(-1000px, 0);
+    transform: translate(-2000px, 0);
 }
 .card p {
-    transform: translate(1000px, 0);
+    transform: translate(2000px, 0);
     transition-delay: .1s;
 }
 .transition{
